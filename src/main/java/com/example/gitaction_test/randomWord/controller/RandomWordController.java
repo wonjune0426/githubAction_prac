@@ -16,6 +16,7 @@ public class RandomWordController {
     private final RandomWordService wordService;
 
 
+
     //런덤한 단어를 받는 요청
     @GetMapping("/randomWord")
     public List<String> getWordList() {
