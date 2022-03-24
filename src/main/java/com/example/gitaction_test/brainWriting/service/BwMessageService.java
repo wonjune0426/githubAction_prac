@@ -1,12 +1,13 @@
 package com.example.gitaction_test.brainWriting.service;
 
-import com.steepcliff.thinkboom.brainWriting.domain.BwChatMessage;
-import com.steepcliff.thinkboom.brainWriting.domain.BwRoom;
-import com.steepcliff.thinkboom.brainWriting.dto.BwMessageResponseDto;
-import com.steepcliff.thinkboom.brainWriting.repository.BwMessageRepository;
-import com.steepcliff.thinkboom.brainWriting.repository.BwRoomRepository;
-import com.steepcliff.thinkboom.user.User;
-import com.steepcliff.thinkboom.user.UserService;
+
+import com.example.gitaction_test.brainWriting.domain.BwChatMessage;
+import com.example.gitaction_test.brainWriting.domain.BwRoom;
+import com.example.gitaction_test.brainWriting.dto.BwMessageResponseDto;
+import com.example.gitaction_test.brainWriting.repository.BwMessageRepository;
+import com.example.gitaction_test.brainWriting.repository.BwRoomRepository;
+import com.example.gitaction_test.user.User;
+import com.example.gitaction_test.user.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.ChannelTopic;

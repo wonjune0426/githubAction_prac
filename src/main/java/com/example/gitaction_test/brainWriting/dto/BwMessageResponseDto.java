@@ -1,6 +1,7 @@
 package com.example.gitaction_test.brainWriting.dto;
 
-import com.steepcliff.thinkboom.brainWriting.domain.BwChatMessage;
+
+import com.example.gitaction_test.brainWriting.domain.BwChatMessage;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
